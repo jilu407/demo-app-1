@@ -13,8 +13,8 @@ node {
 	stage('Compile'){
 		echo 'Compile pass'
 	}
-	staghhe('package'){
-		 top 
+	stage('package'){
+		echo 'package' 
 	}
 	stage('Ansible Deploy'){
 		echo "Deploying the Project.........."
